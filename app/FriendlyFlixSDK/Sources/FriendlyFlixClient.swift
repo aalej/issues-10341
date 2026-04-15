@@ -23,10 +23,10 @@ public class FriendlyFlixConnector {
     self.dataConnect = dataConnect
 
     // init operations 
-    self.listReviewsReproQuery = ListReviewsReproQuery(dataConnect: dataConnect)
     self.upsertUserMutation = UpsertUserMutation(dataConnect: dataConnect)
     self.addFavoritedMovieMutation = AddFavoritedMovieMutation(dataConnect: dataConnect)
     self.deleteFavoritedMovieMutation = DeleteFavoritedMovieMutation(dataConnect: dataConnect)
+    self.listReviewsReproQuery = ListReviewsReproQuery(dataConnect: dataConnect)
     
   }
 
@@ -35,10 +35,10 @@ public class FriendlyFlixConnector {
   }
 
   // MARK: Operations
-public let listReviewsReproQuery: ListReviewsReproQuery
 public let upsertUserMutation: UpsertUserMutation
 public let addFavoritedMovieMutation: AddFavoritedMovieMutation
 public let deleteFavoritedMovieMutation: DeleteFavoritedMovieMutation
+public let listReviewsReproQuery: ListReviewsReproQuery
 
 
 }
