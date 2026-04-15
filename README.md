@@ -44,7 +44,7 @@ query ListReviewsRepro @auth(level: PUBLIC) {
 
 1. Run `firebase dataconnect:sdk:generate`
 2. The generated SDK has an error
-   <img src="images/generater-sdk-err.png"/>
+   <img src="images/generate-sdk-err.png"/>
 
 There are 2 `User` structs
 - 
