@@ -47,5 +47,5 @@ query ListReviewsRepro @auth(level: PUBLIC) {
    <img src="images/generate-sdk-err.png"/>
 
 There are 2 `User` structs
-- 
-- 
+- https://github.com/aalej/issues-10341/blob/406607aeb1af4939130cb946fe7b03746f38e400/app/FriendlyFlixSDK/Sources/FriendlyFlixOperations.swift#L412
+- https://github.com/aalej/issues-10341/blob/406607aeb1af4939130cb946fe7b03746f38e400/app/FriendlyFlixSDK/Sources/FriendlyFlixOperations.swift#L478
