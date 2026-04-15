@@ -1,0 +1,14 @@
+query ListReviewsRepro @auth(level: PUBLIC) {
+  reviews {
+    rating
+    reviewText
+    user {
+      id
+      username
+    }
+    otherUser {
+      id
+      username
+    }
+  }
+}
